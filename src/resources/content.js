@@ -1,16 +1,16 @@
 import { Logo } from "@once-ui-system/core";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Hussain",
+  lastName: "Ezzi",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
-  avatar: "/images/avatar.jpg",
-  email: "example@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  role: "AI Agentic Engineer",
+  avatar: "/images/hussain1.png",
+  email: "hussainezzi03@gmail.com",
+  location: "Pakistan/Karachi", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English","Arabic","Urdu" , "Persain" , "Gujrati"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -30,12 +30,12 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    link: "github.com/hussainezzi",
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "linkedin.com/in/hussain-ezzi-67900226a",
   },
   {
     name: "Threads",
@@ -59,12 +59,12 @@ const home = {
   featured: {
     display: true,
     title: <>Recent project: <strong className="ml-4">Once UI</strong></>,
-    href: "/work/building-once-ui-a-customizable-design-system",
+    href: "https://hussainezzi05.app.n8n.cloud/webhook/4091fa09-fb9a-4039-9411-7104d213f601/chat",
   },
   subline: (
     <>
-      I'm Selene, a design engineer at <Logo icon="/trademarks/wordmark-dark.svg" style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}/>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      I'm Hussain, an Agentic AI engineer at <Logo icon="/trademarks/wordmark-dark.svg" style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}/>, where I craft intuitive
+      <br /> user experiences of chatbots and automation workflows.
     </>
   ),
 };
@@ -90,9 +90,7 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Hi, I'm Hussain Mohammed — an Agentic AI Developer and  Web Developer passionate about building intelligent systems that understand, respond, and adapt — bridging the gap between language and logic
       </>
     ),
   },
@@ -161,8 +159,8 @@ const about = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+        title: "n8n",
+        description: <>Able to make N8N workflows for organizations at highspeed.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
@@ -181,7 +179,7 @@ const about = {
       },
       {
         title: "Next.js",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        description: <>Building next gen apps with Next.js + ShadCN + Supabase.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
